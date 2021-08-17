@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('JOIN MY ChanneL', url='https://t.me/KANNADAMOVIES_17'),
+                    InlineKeyboardButton('JOIN MY GROUP', url='https://t.me/searchkannadamovies')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Other information', url='https://t.me/KANNADAMOVIES_17'),
+                    InlineKeyboardButton('DEVELOPER', url='https://t.me/beereshbanakards')
                 ]
             ]
         ),
@@ -115,8 +115,8 @@ async def start_me(bot, update):
     )
             return 
 
-@Mai_bOTs.on_callback_query()
-async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+@KANNADAMOVIES_17.on_callback_query()
+async def cb_handler(client: KANNADAMOVIES_17 , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
