@@ -115,8 +115,8 @@ async def start_me(bot, update):
     )
             return 
 
-@KANNADAMOVIES_17.on_callback_query()
-async def cb_handler(client: KANNADAMOVIES_17 , query: CallbackQuery):
+@Mai_bOTs.on_callback_query()
+async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
